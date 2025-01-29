@@ -1,0 +1,21 @@
+using System;
+
+namespace Atividade_02
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			Console.WriteLine("escreva um numero e eu te mostrarei o quadrado:");			
+			double num1 = Convert.ToInt32(Console.ReadLine());
+			
+			double qua = (num1 * num1);
+			Console.WriteLine("o quadrado:" + qua);
+			
+			
+			
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
