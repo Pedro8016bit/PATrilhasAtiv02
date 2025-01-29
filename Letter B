@@ -1,0 +1,21 @@
+using System;
+
+namespace Atividade_02
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			Console.WriteLine("escreva um numero e eu te mostrarei o dobro:");			
+			int num1 = Convert.ToInt32(Console.ReadLine());
+			
+			int dobro = (num1 * 2);
+			Console.WriteLine("dobro:" + dobro);
+			
+			
+			
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
